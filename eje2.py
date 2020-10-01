@@ -13,9 +13,9 @@ def sumToN(natural):
 
 #Imprimimos el resultado de sumar los primeros 100 naturales
 
-def solicita_mientras():
-	natural= int(input("Ingresa un número natural | n>0"))
+def solicita_rightnow():
+	natural= int(input("Ingresa un número natural | n>0, en caso contrario el programa no terminará"))
 	return natural
 
 
-print(sumToN(solicita_mientras()))
+print(sumToN(solicita_rightnow()))
